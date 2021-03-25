@@ -6,7 +6,7 @@ public class TestPersonne {
 		// TODO Auto-generated method stub
          Personne p1 = new Personne("Diallo","Siradio","75852225","diallo@gmail.com",22);
          
-        p1.toString();
+          p1.toString();
 	}
 	
 

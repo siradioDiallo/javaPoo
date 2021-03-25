@@ -1,22 +1,22 @@
 package sn.supinfo.javapoo;
 
 public class Salle {
-	private String nom_salle;
+	private String nomSalle;
 	private int nbrePlace;
 	
 	public Salle() {}
 
 	public Salle(String nom,int place) {
-		this.nom_salle=nom;
+		this.nomSalle=nom;
 		this.nbrePlace=place;
 	}
 	
 	
 	public String getNom_salle() {
-		return nom_salle;
+		return nomSalle;
 	}
 	public void setNom_salle(String nom_salle) {
-		this.nom_salle = nom_salle;
+		this.nomSalle = nom_salle;
 	}
 	public int getNbrePlace() {
 		return nbrePlace;
@@ -27,7 +27,7 @@ public class Salle {
 
 	@Override
 	public String toString() {
-		return "Salle [nom_salle=" + nom_salle + ", nbrePlace=" + nbrePlace + "]";
+		return "Salle [nom_salle=" + nomSalle + ", nbrePlace=" + nbrePlace + "]";
 	}
 	
 

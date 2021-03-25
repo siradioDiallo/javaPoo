@@ -2,18 +2,30 @@ package sn.supinfo.javapoo;
 
 public class SeanceDeCours {
 	private String date;
-	private int dateDebut;
-	private int dateFin;
+	private int heureDebut;
+	private int heureFin;
 	private int soldeHeure;
+	private String prof;
+	private String group;
+	private String module;
 	
-	public SeanceDeCours() {
-		
+	
+public String getModule() {
+		return module;
+	} 
+
+	public void setModule(String module) {
+		this.module = module;
 	}
-public SeanceDeCours(String date,int dateDebut,int dateFin,int soldeHeure) {
+
+public SeanceDeCours(String date,int dateDebut,int dateFin,int soldeHeure,String prof,String module,String group) {
 		this.date=date;
-		this.dateDebut=dateDebut;
-		this.dateFin=dateFin;
+		this.heureDebut=dateDebut;
+		this.heureFin=dateFin;
 		this.soldeHeure=soldeHeure;
+		this.prof=prof;
+		this.module=module;
+		this.group=group;
 		}
 	
 	public String getDate() {
@@ -22,17 +34,15 @@ public SeanceDeCours(String date,int dateDebut,int dateFin,int soldeHeure) {
 	public void setDate(String date) {
 		this.date = date;
 	}
-	public int getDateDebut() {
-		return dateDebut;
+	public int getHeureDebut() {
+		return heureDebut;
 	}
-	public void setDateDebut(int dateDebut) {
-		this.dateDebut = dateDebut;
+	public void setHeureDebut(int dateDebut) {
+		this.heureDebut = dateDebut;
 	}
-	public int getDateFin() {
-		return dateFin;
-	}
-	public void setDateFin(int dateFin) {
-		this.dateFin = dateFin;
+	
+	public void setHeureFin(int dateFin) {
+		this.heureFin = dateFin;
 	}
 	public int getSoldeHeure() {
 		return soldeHeure;
@@ -40,9 +50,28 @@ public SeanceDeCours(String date,int dateDebut,int dateFin,int soldeHeure) {
 	public void setSoldeHeure(int soldeHeure) {
 		this.soldeHeure = soldeHeure;
 	}
+	public String getProf() {
+		return prof;
+	}
+	public void setProf(String prof) {
+		this.prof = prof;
+	}
+	public String getGroup() {
+		return group;
+	}
+	public void setGroup(String group) {
+		this.group = group;
+	}
+	public int getHeureFin() {
+		return heureFin;
+	}
+	public SeanceDeCours() {
+		
+	}
+	
 	@Override
 	public String toString() {
-		return "SeanceDeCours [date=" + date + ", dateDebut=" + dateDebut + ", dateFin=" + dateFin + ", soldeHeure="
+		return "SeanceDeCours [date=" + date + ", dateDebut=" + heureDebut + ", dateFin=" + heureFin + ", soldeHeure="
 				+ soldeHeure + "]";
 	}
 
