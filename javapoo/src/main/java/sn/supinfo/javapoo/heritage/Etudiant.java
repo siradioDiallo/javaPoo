@@ -20,4 +20,5 @@ public String getGroupeSanguin() {
 public void setGroupeSanguin(String groupeSanguin) {
 	this.groupeSanguin = groupeSanguin;
 }
+
 }
