@@ -31,4 +31,9 @@ public class Professeur extends Personne{
 		this.speciality = speciality;
 	}
 
+	@Override
+	public String toString() {
+		return super.toString()+" speciality=" + speciality;
+	}
+
 }

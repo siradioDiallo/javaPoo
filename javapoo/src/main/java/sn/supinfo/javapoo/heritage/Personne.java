@@ -127,5 +127,12 @@ public boolean equals(Object obj) {
 		return false;
 	return true;
 }
+@Override
+public String toString() {
+	return "id=" + id + ", matricule=" + matricule + ", genre=" + genre + ", nom=" + nom + ", prenom="
+			+ prenom + ", adresse=" + adresse + ", dateDeNaissance=" + dateDeNaissance + ", lieuDeNaissance="
+			+ lieuDeNaissance + ", nationalite=" + nationalite + ", situationMatri=" + situationMatri + ", tel=" + tel
+			+ ", email=" + email;
+}
 
 }

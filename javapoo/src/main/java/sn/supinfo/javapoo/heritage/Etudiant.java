@@ -21,4 +21,9 @@ public void setGroupeSanguin(String groupeSanguin) {
 	this.groupeSanguin = groupeSanguin;
 }
 
+@Override
+public String toString() {
+	return super.toString()+" groupeSanguin=" + groupeSanguin;
+}
+
 }
