@@ -17,6 +17,7 @@ public class Secretaire extends Personne {
 	  this.debutContrat=debutContrat;
 	  this.finContrat=finContrat;
   }
+  
 
 public String getFinContrat() {
 	return finContrat;

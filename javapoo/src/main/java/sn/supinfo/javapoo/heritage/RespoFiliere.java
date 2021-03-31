@@ -26,6 +26,7 @@ public class RespoFiliere extends Personne{
 		this.filiere = filiere;
 	}
 	
+	
 	public String getGroupeSanguin() {
 		return groupeSanguin;
 	}
